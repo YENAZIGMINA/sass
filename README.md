@@ -25,3 +25,25 @@
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/6a7b24e7-0365-41a1-97c1-1cbbbb8ab118)
 
 # 주석처리 방법
+## //로 주석처리 하는 방법은 css로 컴파일되지 않는다.
+## /*  */ 는 css로 컴파일 된다.
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/12c7d0fd-d341-421c-987e-f66046ec8ec4)
+
+# 변수만들기 --> $로 시작함, (영문, 숫자, - , _ )만 사용 할 수 있다. 
+## 숫자로 시작할 수 없음.
+
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/7a3f1dda-74c7-4a5f-a44b-e7b319064deb)
+
+# Partials(파샬)
+  -- 관련된 것끼리 묶어서 분리 / 소스에 반복되는 부분들을 분리, 분산시켜서 모듈화 시키는 기능
+  
+  * Partials의 파일명은 _로 시작하며
+  * 불러들일 때는 @import '파일명'  이 때 파일명에 _는 포함시키지 않고, 확장명도 포함시키지 않는다.
+
+  Scss는 _로 시작하는 파일은 컴파일하지 않는다.
+  
+  
+  
+  
+  
+  
