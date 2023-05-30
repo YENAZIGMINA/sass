@@ -16,3 +16,12 @@
 
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/4b3d4ed5-0508-483c-bfb5-2fd5a714226f)
 
+# ~(물결)은 style.scss를 의미, /는 style.scss가 있는 폴더를 의미
+
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/7df986e9-c4d5-44c1-ab86-40ad183c9087)
+
+# ../는 scss파일이 있는 폴더의 상위요소에 생성
+
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/6a7b24e7-0365-41a1-97c1-1cbbbb8ab118)
+
+# 주석처리 방법
