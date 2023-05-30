@@ -42,7 +42,8 @@
 
   Scss는 _로 시작하는 파일은 컴파일하지 않는다.
   
-  
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/d92bcf02-6c18-494a-819b-37ae4dabf9eb)
+
   
   
   
