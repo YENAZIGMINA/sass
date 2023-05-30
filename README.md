@@ -37,10 +37,12 @@
 # Partials(파샬)
   -- 관련된 것끼리 묶어서 분리 / 소스에 반복되는 부분들을 분리, 분산시켜서 모듈화 시키는 기능
   
-  * Partials의 파일명은 _로 시작하며
+  * Partials 폴더는 직접 만듦
+  * Partials의 파일명은 _로 시작하며 (ex. _var.scss)
   * 불러들일 때는 @import '파일명'  이 때 파일명에 _는 포함시키지 않고, 확장명도 포함시키지 않는다.
 
   Scss는 _로 시작하는 파일은 컴파일하지 않는다.
+  
   
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/d92bcf02-6c18-494a-819b-37ae4dabf9eb)
 
