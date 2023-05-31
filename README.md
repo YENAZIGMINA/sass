@@ -56,12 +56,16 @@
 
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/d971d544-fd74-43da-9f2a-1bb6c78ddd08)
 
-# as 뒤에 별명을 붙여서 사용할 수 있다. (별명으로 부를 수도 있음)
+# as 뒤에 별명을 붙여서 사용할 수 있다. (이름으로 부를 수도 있음)
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/42780409-3043-4b32-95f9-b557a1b9dd7a)
 
 # @forword 는 파샬을 묶어줌(그룹)
 style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함 (ex)king이라는 별명을 붙여서)
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/2452bab6-bec4-48ec-90b7-9e16d7a14fbe)
+
+# *(와일드카드)를 붙이면 이름을 생략할 수 있다
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/0b605ace-9b09-4aa8-8fcf-889e3ace39ca)
+
 
 
 
