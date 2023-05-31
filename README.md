@@ -60,7 +60,7 @@
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/42780409-3043-4b32-95f9-b557a1b9dd7a)
 
 # @forword 는 파샬을 묶어줌(그룹)
-style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함
+style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함 (ex)king이라는 별명을 붙여서)
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/2452bab6-bec4-48ec-90b7-9e16d7a14fbe)
 
 
