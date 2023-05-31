@@ -43,8 +43,28 @@
 
   Scss는 _로 시작하는 파일은 컴파일하지 않는다.
   
-  
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/d92bcf02-6c18-494a-819b-37ae4dabf9eb)
+
+
+# @import -- 변수가 중복될 때는 아래의 것이 적용된다.
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/fe7933f6-580d-42c7-b25c-752b118348ec)
+
+# @use --> 변수이름이 같을 때 에러발생하여 import대신 @use를 사용
+사용할 때는 앞에 파일명을 추가해서 파일명.변수명
+같은 변수명이지만 다른 값을 준 scss를 use를 통해서 변수명앞에 .var(페이지명) 작성하여 적용할 수 있다
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/6813fe89-af9b-4bb8-878e-6741ee1be9bc)
+
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/d971d544-fd74-43da-9f2a-1bb6c78ddd08)
+
+# as 뒤에 별명을 붙여서 사용할 수 있다. (별명으로 부를 수도 있음)
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/42780409-3043-4b32-95f9-b557a1b9dd7a)
+
+# @forword 는 파샬을 묶어줌(그룹)
+style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/2452bab6-bec4-48ec-90b7-9e16d7a14fbe)
+
+
+
 
   
   
