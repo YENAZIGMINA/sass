@@ -74,7 +74,14 @@ style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함 (ex)k
 # 보간법
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/12df4939-74fa-4bfa-900e-4f449e585fee)
 
-# nesting(네스팅)
+# nesting(네스팅) -- vnaek
+
+# 함수
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/45ec029a-d728-4eff-a6a4-56edce06c1ee)
+
+# extend
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/a1f02858-66a7-4c1e-a992-6fc1445afd8d)
+
 
 
 
