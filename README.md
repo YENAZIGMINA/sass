@@ -74,6 +74,8 @@ style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함 (ex)k
 # 보간법
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/12df4939-74fa-4bfa-900e-4f449e585fee)
 
+# nesting(네스팅)
+
 
 
 
