@@ -1,0 +1,8 @@
+$width:10;
+$widthpx:10px;
+
+.box{
+    //보간법(인터폴레이션 방법) - scss에서 인터폴레이션은 변수나 표현식(결과값이 값)을 문자열 내에 삽입하는 기능할 말합니다.
+    width:#{$width*$width}px;
+    height: $widthpx *2;
+}

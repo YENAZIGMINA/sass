@@ -1,0 +1,47 @@
+$width: 10;
+$color-primay: skyblue;
+
+.box {
+  width: #{$width * $width}px;
+  height: #{$width * $width}px;
+  border: 1px solid #333;
+  background-color: $color-primay;
+
+  & + & {
+    color: red;
+  } // 중괄호의 주인인 box
+}
+
+#box {
+  > .box5 {
+    border-color: 2px solid #ffb325;
+    &:hover {
+      border-color: blue; //&는 윗단계
+    }
+    .box {
+      background-color: #c15b5b;
+      span {
+        font-size: 12px;
+      }
+      &:hover {
+        background-color: green;
+      }
+    }
+  }
+  &::after {
+    content: "";
+  }
+}
+
+#box {
+  .box {
+    color: blue;
+    font-size: 12px;
+    font-weight: bold;
+    font: {
+      //폰트에 관련된 것 한 곳에 모아서!
+      size: 12px;
+      weight: bold;
+    }
+  }
+}

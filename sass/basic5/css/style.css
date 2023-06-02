@@ -1,0 +1,36 @@
+.box {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #333;
+  background-color: skyblue;
+}
+.box + .box {
+  color: red;
+}
+
+#box > .box5 {
+  border-color: 2px solid #ffb325;
+}
+#box > .box5:hover {
+  border-color: blue;
+}
+#box > .box5 .box {
+  background-color: #c15b5b;
+}
+#box > .box5 .box span {
+  font-size: 12px;
+}
+#box > .box5 .box:hover {
+  background-color: green;
+}
+#box::after {
+  content: "";
+}
+
+#box .box {
+  color: blue;
+  font-size: 12px;
+  font-weight: bold;
+  font-size: 12px;
+  font-weight: bold;
+}/*# sourceMappingURL=style.css.map */
