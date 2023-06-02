@@ -68,6 +68,14 @@ style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함 (ex)k
 # *(와일드카드)를 붙이면 이름을 생략할 수 있다
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/0b605ace-9b09-4aa8-8fcf-889e3ace39ca)
 
+# 전역변수와 지역변수
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/ccef8fce-f02b-4ad5-95c7-87f98364eb22)
+
+# 보간법
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/12df4939-74fa-4bfa-900e-4f449e585fee)
+
+
+
 
 
 
