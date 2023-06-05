@@ -1,0 +1,42 @@
+//partials는 모듈화 시키는 것
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;700&display=swap');
+
+
+//폰트(변수에 넣음)
+$ff:'Noto Sans KR', sans-serif;
+$fw-1:300;
+$fw-n:400;
+$fw-b:700;
+
+//color
+$color-white:#fff;
+$color-blue:#1359c2;
+$color-light-gray:rgba(0,0,0,0.1);
+$color-gray:rgba(0,0,0,0.5);
+$color-dark-gray:rgba(0,0,0,0.6);
+
+//
+$color-accent:$color-blue;
+
+$color-body:$color-gray;
+$color-heading:$color-accent;
+
+
+$fs-normal:16px; //1rem
+$fs-h1:(56px/$fs-normal)*1rem;
+$fs-body:(24px/$fs-normal)*1rem;
+
+
+$fx-xl:(72px/$fs-normal)*1rem;
+$fx-l:(32px/$fs-normal)*1rem;
+$fx-sm:(16px/$fs-normal)*1rem;
+
+
+$ls:5px; //letter-spacing
+
+
+//기타등등
+$spacer:1rem;
+$bs:0 0 1rem $color-light-gray;
+$bs-accent:0 0 1.2rem $color-dark-gray;

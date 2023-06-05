@@ -1,0 +1,57 @@
+@use './partials/vars';
+// (./는 나랑 같은 위치)
+
+*{
+    box-sizing: border-box;
+    margin: 0; padding: 0;
+}
+li {list-style: none;}
+body {
+    font-family: vars.$ff;
+    font-size: vars.$fs-body;
+    color: vars.$color-body;
+}
+h1 {
+    margin-bottom: vars.$spacer;
+    padding: vars.$spacer * 1.2 0;
+    font-size: vars.$fs-h1;
+    color: vars.$color-heading;
+    letter-spacing: vars.$ls;
+    text-transform: uppercase;
+}
+
+#mall-event-container{
+    text-align: center;
+    padding: vars.$spacer 0;
+}
+
+.events {
+    width: 95%;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding-top: vars.$spacer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.event {
+    background-color: vars.$color-white;
+    box-shadow: vars.$bs;
+    //border-radius: 130px 50px 130px 50px;
+    //border-top-left-radius: 130px;
+    //border-top-right-radius: 50px;
+    //border-bottom-right-radius: 130px;
+    //border-bottom-left-radius: 50px;
+    border-radius: 130px 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: vars.$spacer * 1.5;
+
+    //&는 자기자신
+    &:nth-child(1) {
+        align-self: start;
+    }
+
+}
