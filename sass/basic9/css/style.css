@@ -1,0 +1,7 @@
+.cls {
+  display: flex;
+  -webkit-animation-fill-mode: row;
+  justify-content: center;
+  align-items: center;
+  gap: "20px";
+}/*# sourceMappingURL=style.css.map */

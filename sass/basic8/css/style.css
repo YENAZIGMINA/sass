@@ -1,0 +1,52 @@
+.cls {
+  border: 1px solid #000;
+}
+
+.cls3, .cls2 {
+  border: 3px solid orange;
+  background-color: skyblue;
+  font-size: 20px;
+}
+
+.cls2 {
+  color: #000;
+}
+
+.cls4 {
+  border: 3px solid orange;
+  background-color: skyblue;
+  font-size: 20px;
+}
+
+.cls5 {
+  border: 3px solid orange;
+  background-color: skyblue;
+  font-size: 20px;
+}
+
+.cls6 {
+  background-color: #000;
+  font-size: 40px;
+  color: #777;
+}
+
+.cls7 {
+  background-color: #f00;
+  font-size: 20px;
+}
+
+.cls8 {
+  background-color: #000;
+  font-size: 35px;
+  border: 3px solid #fff;
+}
+
+.cls9 {
+  background-color: #000;
+  font-size: 35px;
+  text-decoration: none;
+}
+
+.hello {
+  background-color: pink;
+}/*# sourceMappingURL=style.css.map */

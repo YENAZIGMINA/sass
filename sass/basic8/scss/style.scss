@@ -1,0 +1,75 @@
+//mixin
+
+//함수
+@function fun1(){
+    @return 1px solid #000
+}
+
+.cls{
+    border: fun1();
+}
+
+//extend - css에 공통은 묶여서 적용됨
+%ext1{
+    border: 3px solid orange;
+    background-color: skyblue;
+    font-size: 20px;
+}
+.cls2{
+    @extend %ext1;
+    color: #000;
+}
+.cls3{
+    @extend %ext1;
+}
+
+//@mixin - 매개변수가 없는 함수처럼 작동함
+//css에 함께 묶이지 않고 따로, 각자 적용됨
+@mixin mx1 {
+    border: 3px solid orange;
+    background-color: skyblue;
+    font-size: 20px;
+}
+.cls4{
+    @include mx1();
+}
+.cls5{
+    @include mx1();
+}
+
+//@mixin은 매개변수를 통해 다른 값을 할당할 수 있음
+@mixin mx2($bg,$fs){
+    background-color: $bg;
+    font-size: $fs;
+}
+.cls6 {
+    @include mx2(#000, 40px);
+    color:#777;
+}
+.cls7 {
+    @include mx2(#f00, 20px);
+}
+
+//@content를 사용하면 공통적인 부분과 추가해야하는 부분을 {}안에 넣어 설정할 수 있다
+@mixin mx3($bg,$fs){
+    background-color: $bg;
+    font-size: $fs;
+    @content;
+}
+.cls8{
+    @include mx3(#000,35px){
+        border: 3px solid #fff;
+    };
+}
+.cls9{
+    @include mx3(#000,35px){
+        text-decoration: none;
+    };
+}
+
+@mixin mx4($bg){
+    .hello{
+        background-color: $bg;
+    }
+}
+@include mx4(pink)

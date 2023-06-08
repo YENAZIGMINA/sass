@@ -1,0 +1,30 @@
+@mixin flex(
+    $isHorizontal,
+    $justifyCon,
+    $alignIte,
+    $gap){
+        display: flex;
+        @if ($isHorizontal==true){
+            -webkit-animation-fill-mode: row;
+        }@else{
+            flex-direction: colum;
+        }
+
+        @if ($justifyCon=='start'){
+            justify-content: flex-start;
+        }@else if($justifyCon=='center'){
+            justify-content: center;
+        }@else if($justifyCon=='end'){
+            justify-content: flex-end;
+        }
+
+        @if($alignIte=='start'){
+            align-items: flex-start;
+        }@else if($alignIte=='center'){
+            align-items: center;
+        }@else if($alignIte=='end'){
+            align-items: flex-end;
+        }
+
+        gap:$gap
+}
