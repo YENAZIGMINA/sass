@@ -1,0 +1,47 @@
+//map형
+
+$breakpoins:(
+    xs:0,
+    sm:576px,
+    md:768px,
+    lg:992px,
+    xl:1200px,
+    xxl:1400px
+);
+
+@mixin breakpoint-up($bp){
+    $min-value:map-get($breakpoins,$bp);
+    @if($bp == xs){
+        //모든구간
+        @content;
+    }@else{
+        @media (min-width:$min-value){
+            @content;
+        }
+    }
+}
+
+/* @mixin breakpoint-down($bp){
+    $max-value:0px;
+    
+    @if($bp == xs){
+        //최대0, 0이하는 존재할 수 없음
+        @error "Breakpoint 0 isn't availiable";
+    }@else{
+        $max-value:map-get($breakpoins,$bp)
+    }
+
+    @media (max-width:$max-value){
+        @content;
+    }
+} */
+
+
+//위 내용이랑 동일함
+@mixin breakpoint-down($bp){
+    $max-value:map-get($breakpoins,$bp);
+
+    @media (max-width:$max-value){
+        @content;
+    }
+}

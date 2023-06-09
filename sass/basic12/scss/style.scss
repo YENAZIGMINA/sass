@@ -1,0 +1,20 @@
+@use './patials/mixin';
+
+header {
+    h1{
+        font-size: 40px;
+        @include mixin.breakpoint-up(md){
+            font-size: 60px;
+            color: #e4cd33;
+        }
+    }
+
+    h2{
+        font-size: 30px;
+        color: #333333;
+        @include mixin.breakpoint-down(xl){
+            font-size: 20px;
+            color: #285aa4;
+        }
+    }
+}
