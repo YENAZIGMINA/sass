@@ -74,7 +74,10 @@ style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함 (ex)k
 # 보간법 - #{$변수명} 형태로 사용
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/12df4939-74fa-4bfa-900e-4f449e585fee)
 
-# nesting(네스팅) -- vnaek
+# nesting(네스팅):중첩 -- vnaek // 코드를 간략히 작성가능
+  *ex) .container div a 이렇게 작성하지 않고 container 안에 div 안에 a 로 
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/05a47a42-3d9b-4179-9e68-5c3dad1b2fe5)
+
 
 # 함수
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/45ec029a-d728-4eff-a6a4-56edce06c1ee)
