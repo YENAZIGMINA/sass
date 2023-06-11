@@ -89,6 +89,7 @@ style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함 (ex)k
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/b459e9d9-b04a-42ba-aeee-d7fbd9f796d9)
 
  *scss에서 css로 compile된 결과창
+ 
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/8a01fb50-e085-48e3-b622-b951e2beac8d)
 
 
