@@ -85,6 +85,13 @@ style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함 (ex)k
 # extend
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/a1f02858-66a7-4c1e-a992-6fc1445afd8d)
 
+ *scss에 .button에 작성한 스타일을 @extend를 사용하여 .primary-button 와 .secondary-button 클래스에 스타일 확장
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/b459e9d9-b04a-42ba-aeee-d7fbd9f796d9)
+
+ *scss에서 css로 compile된 결과창
+![image](https://github.com/YENAZIGMINA/sass/assets/129706758/8a01fb50-e085-48e3-b622-b951e2beac8d)
+
+
 
 
 
