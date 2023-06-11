@@ -71,7 +71,7 @@ style.scss에서는 _index.scss에서 묶은 것을 호출하여 사용함 (ex)k
 # 전역변수와 지역변수
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/ccef8fce-f02b-4ad5-95c7-87f98364eb22)
 
-# 보간법
+# 보간법 - #{$변수명} 형태로 사용
 ![image](https://github.com/YENAZIGMINA/sass/assets/129706758/12df4939-74fa-4bfa-900e-4f449e585fee)
 
 # nesting(네스팅) -- vnaek
